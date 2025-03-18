@@ -77,7 +77,8 @@ function App(): React.JSX.Element {
   const safePadding = '5%';
 
   return (
-    <ScrollView style={backgroundStyle}>
+    <View style={backgroundStyle}>
+      <MainPage/>
       <View
         style={{
           flexDirection: "row",
@@ -94,7 +95,7 @@ function App(): React.JSX.Element {
         <Card text="I make Youtube Video and I play Video games" name="Card2"/>
         <Card text="My Card" name="Card3"/>
       </View>
-    </ScrollView>
+    </View>
     // <View style={backgroundStyle}>
     //   <StatusBar
     //     barStyle={isDarkMode ? 'light-content' : 'dark-content'}
